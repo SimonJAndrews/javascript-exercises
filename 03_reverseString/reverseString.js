@@ -1,6 +1,5 @@
 const reverseString = function() {
-let stringInput = 'hello';
-let reversal = reverseString(stringInput)
+let reversal = reverseString("hello")
 return reversal;
 };
 
