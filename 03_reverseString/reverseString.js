@@ -1,5 +1,5 @@
 const reverseString = function() {
-let stringInput = 'National Geographic Magazine';
+let stringInput = 'hello';
 let reversal = stringInput.split('').reverse().join();
 return reversal;
 };
