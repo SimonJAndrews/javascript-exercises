@@ -3,6 +3,7 @@ const removeFromArray = function() {
   removeValFromIndex = [1, 2];
 for (const i of removeValFromIndex.reverse()) {
   valuesArr.splice(i, 1);
+  return valuesArr
 }
     
   }
