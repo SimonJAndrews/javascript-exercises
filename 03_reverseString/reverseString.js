@@ -1,6 +1,6 @@
 const reverseString = function() {
 let stringInput = 'hello';
-let reversal = stringInput.reverseString(stringInput).toEqual('olleh')
+let reversal = reverseString(stringInput)
 return reversal;
 };
 
