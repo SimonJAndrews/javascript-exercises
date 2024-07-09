@@ -1,10 +1,7 @@
-const removeFromArray = function() {
-    let myArray = [1, 2, 3, 4];
-myArray.splice(1, 2);
+let myArray = [1,2,2,3];
 
-return myArray
-    
-  }
+let newArray = [...new Set(myArray)];
+console.log(newArray);
   
   
 
