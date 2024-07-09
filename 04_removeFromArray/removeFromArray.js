@@ -1,12 +1,12 @@
 let myArray = [1,2,2,3];
 
-function sortArray(){
+function removeFromArray(){
     let newArray = [...new Set(myArray)];
     return newArray;
       
 }
 
-sortArray();
+removeFromArray();
 
 
   
