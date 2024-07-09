@@ -2,8 +2,9 @@ const array = [1, 2, 2, 3];
 
 function removeFromArray(){
      
-     uniqueArray = [...new Set(array)];
+    let uniqueArray = [...new Set(array)];
     uniqueArray.splice(1,1);
+    return uniqueArray;
 
       
 }
