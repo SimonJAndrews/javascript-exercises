@@ -3,7 +3,7 @@ const removeFromArray = function(array, ...numbersToRemove) {
     return array.filter(item => !numbersToRemove.includes(item))
   };
   
-  removeFromArray([1, 2, 3, 4], 7, "tacos");
+  removeFromArray([1, 2, 3, 4], 7, 2);
 
 
 
