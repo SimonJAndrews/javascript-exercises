@@ -1,9 +1,10 @@
+let array = [1,2,3,4,5]
+const removeFromArray = function(){
+    array.splice(0, array.length);
 
-const removeFromArray = function(array, ...numbersToRemove) {
-    return array.filter(item => numbersToRemove.includes(item))
-  };
+}
   
-  removeFromArray([1, 2, 3, 4],1,2,3,4);
+removeFromArray(),
 
 
 
