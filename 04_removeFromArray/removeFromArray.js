@@ -1,13 +1,8 @@
-const array = [1, 2, 2, 3];
 
-function removeFromArray(){
-     
-    let uniqueArray = [...new Set(array)];
-    uniqueArray.splice(1,1);
-    return uniqueArray;
-
-      
-}
+const removeFromArray = function(array, ...numbersToRemove) {
+    return array.filter(item => !numbersToRemove.includes(item))
+  };
+  console.log(removeFromArray([1, 2, 3, 4], 7, "tacos"));
 
 removeFromArray();
 
